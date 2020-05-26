@@ -13,9 +13,7 @@ class Emoticons(object):
 
     #Get text names for emoji from user-text
     def get_emoji_name(self,text):
-        for emot in UNICODE_EMO:
-            text = text.replace(emot, "_".join(UNICODE_EMO[emot].replace(",", "").split()))
-        return text
+        return unicodedata.name(text)
 
     # Check if text contains emoji
     def is_emoji(self,text):
