@@ -1,5 +1,5 @@
 aiogram==2.8
-aiohttp==3.6.2
+aiohttp==3.7.4
 appdirs==1.4.4
 arsenic==19.1
 asgiref==3.2.7
