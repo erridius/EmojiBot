@@ -8,7 +8,7 @@ attrs==19.3.0
 Babel==2.8.0
 certifi==2020.4.5.1
 chardet==3.0.4
-Django==3.0.6
+Django==3.0.14
 emoji==0.5.4
 emot==2.1
 fake-useragent==0.1.11
